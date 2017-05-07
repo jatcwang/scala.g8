@@ -4,13 +4,13 @@ organization := "$organization$"
 
 version := "$version$"
 
-scalaVersion := "2.12.0"
+scalaVersion := "2.12.2"
 
-crossScalaVersions := Seq("2.11.8", "2.12.0")
+crossScalaVersions := Seq("2.11.11", "2.12.2")
 
 libraryDependencies ++= Seq(
-  "org.typelevel" %% "cats-core" % "0.8.1",
+  "org.typelevel" %% "cats-core" % "0.9.0",
 
-  "org.scalatest" %% "scalatest" % "3.0.0" % "test",
-  "org.scalacheck" %% "scalacheck" % "1.13.4" % "test"
+  "org.scalatest" %% "scalatest" % "3.0.3" % "test",
+  "org.scalacheck" %% "scalacheck" % "1.13.5" % "test"
 )
