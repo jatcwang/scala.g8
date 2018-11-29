@@ -1,4 +1,4 @@
-val thisScalaVersion = "2.12.6"
+val thisScalaVersion = "2.12.7"
 
 val root = Project("root", file("."))
   .settings(
@@ -9,9 +9,9 @@ val root = Project("root", file("."))
       /* crossScalaVersions := Seq("2.11.11", thisScalaVersion), */
 
       libraryDependencies ++= Seq(
-        "org.typelevel" %% "cats-core" % "0.9.0",
+        "org.typelevel" %% "cats-core" % "1.4",
 
-        "org.scalatest" %% "scalatest" % "3.0.4" % "test",
-        "org.scalacheck" %% "scalacheck" % "1.13.5" % "test"
+        "org.scalatest" %% "scalatest" % "3.0.5" % "test",
+        "org.scalacheck" %% "scalacheck" % "1.14.0" % "test"
       )
   )
