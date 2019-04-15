@@ -18,5 +18,6 @@ projectFilesBackup/
 .settings
 .project
 .classpath
+.metals
 version.properties
 RUNNING_PID
